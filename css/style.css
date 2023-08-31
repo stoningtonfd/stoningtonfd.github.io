@@ -1,0 +1,104 @@
+* { padding: 0; margin: 0; }
+
+body {
+margin: 2% 10%;
+font-family: Helvetica, sans-serif;
+font-size: 100%;
+color: black;
+background: white;
+}
+a:link,a:active,a:visited {
+color: #a00;
+text-decoration: none;
+}
+
+a:hover {
+color: #f00;
+}
+
+h1 { font-size: 150%; color: black; padding: 1em 0;}
+h2 { font-size: 100%; color: #777; padding: 0.5em 0; font-style: italic;}
+h3 { font-size: 90%; color: #888; font-style: italic;}
+h4 { font-size: 80%; color: #be1e2d; font-style: italic;}
+
+#content h1::before {
+content: url('../img/separator.png');
+display: block;
+padding-bottom: 5px;
+}
+ul {
+list-style-type: square;
+}
+#banner {
+background: black;
+color: white;
+text-align: center;
+padding: 0.5em;
+}
+#header {
+background: #b00;
+display: inline-block;
+width: 100%;
+}
+#header h1 {
+color: white;
+font-size: 300%;
+padding: 0;
+}
+#header h2 {
+color: white;
+padding: 0;
+font-size: 100%;
+font-weight: 100;
+}
+#header div {
+display: inline-block;
+transform: translateY(-50%);
+}
+#header img {
+padding: 12px 24px
+}
+
+#navbar {
+background: #353333;
+color: white;
+text-align: center;
+padding: 0.5em;
+}
+
+#content {
+padding: 0;
+font-size: 100%;
+color: black;
+}
+#content p {
+padding: 0.5em 0;
+}
+
+#footer {
+padding: 1em;
+padding-top: 4em;
+margin-top: 0.5em;
+font-size: 80%;
+font-style: italic;
+text-align: left;
+background: black;
+color: #ccc;
+}
+
+#footer a {
+color: white;
+}
+
+th, td {
+padding: .25em;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #eee;
+  color: black;
+}
+li {
+margin-left: 3em;
+padding: 0.5em;
+}
