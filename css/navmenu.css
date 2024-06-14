@@ -2,6 +2,7 @@ div.NavMenu {
 background-color:black;
 padding: .5em 0;
 color:white;
+display:flex;
 }
 
 div.NavMenu ul {
